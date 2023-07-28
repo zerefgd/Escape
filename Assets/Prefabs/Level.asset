@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfe5418a58ec6da419aeb90b34fa4a13, type: 3}
+  m_Name: Level
+  m_EditorClassIdentifier: 
+  Rows: 5
+  Columns: 5
+  WinPiece:
+    Id: 0
+    IsVertical: 0
+    Size: 2
+    Start: {x: 2, y: 1}
+  Pieces:
+  - Id: 1
+    IsVertical: 1
+    Size: 2
+    Start: {x: 3, y: 1}
+  - Id: 2
+    IsVertical: 1
+    Size: 2
+    Start: {x: 0, y: 0}
+  - Id: 3
+    IsVertical: 1
+    Size: 2
+    Start: {x: 2, y: 3}
+  - Id: 4
+    IsVertical: 0
+    Size: 2
+    Start: {x: 4, y: 3}
+  - Id: 5
+    IsVertical: 0
+    Size: 3
+    Start: {x: 0, y: 2}
